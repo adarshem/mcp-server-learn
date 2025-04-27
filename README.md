@@ -1,0 +1,54 @@
+# MCP Weather Server
+
+This project is a demo implementation of a Model Context Protocol (MCP) server that provides weather-related tools. The server exposes two tools:
+
+1. **get-alerts**: Fetches active weather alerts for a given US state.
+2. **get-forecast**: Provides a weather forecast for a specific location based on latitude and longitude.
+
+## Features
+- Built using Node.js.
+- Implements MCP tools for weather data retrieval.
+- Uses the US National Weather Service API for accurate and up-to-date weather information.
+
+## Prerequisites
+- Node.js installed on your system.
+- Familiarity with MCP concepts and tools.
+
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd weather
+   ```
+
+2. Install dependencies using `pnpm` (as configured in the project):
+   ```bash
+   pnpm install
+   ```
+
+3. Build the project:
+   ```bash
+   pnpm build
+   ```
+
+## Configuration
+
+Update your `settings.json` file of VSCode to add this MCP server
+
+```json
+{
+    "mcpServers": {
+        "weather": {
+            "command": "node",
+            "args": [
+                "/ABSOLUTE/PATH/TO/PARENT/FOLDER/weather/build/index.js"
+            ]
+        }
+    }
+}
+```
+
+## Resources
+- [MCP Quickstart Guide](https://modelcontextprotocol.io/quickstart/server)
+- [US National Weather Service API](https://www.weather.gov/documentation/services-web-api)# mcp-server-learn
