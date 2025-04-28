@@ -1,5 +1,7 @@
 # MCP Weather Server
 
+[![smithery badge](https://smithery.ai/badge/@adarshem/mcp-server-learn)](https://smithery.ai/server/@adarshem/mcp-server-learn)
+
 This project is a demo implementation of a Model Context Protocol (MCP) server that provides weather-related tools. The server exposes two tools:
 
 1. **get-alerts**: Fetches active weather alerts for a given US state.
@@ -16,6 +18,15 @@ This project is a demo implementation of a Model Context Protocol (MCP) server t
 
 ## Setup
 
+### Installing via Smithery
+
+To install mcp-server-learn for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@adarshem/mcp-server-learn):
+
+```bash
+npx -y @smithery/cli install @adarshem/mcp-server-learn --client claude
+```
+
+### Manual Installation
 1. Clone the repository:
    ```bash
    git clone <repository-url>
