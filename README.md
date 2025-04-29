@@ -7,6 +7,10 @@ This project is a demo implementation of a Model Context Protocol (MCP) server t
 1. **get-alerts**: Fetches active weather alerts for a given US state.
 2. **get-forecast**: Provides a weather forecast for a specific location based on latitude and longitude.
 
+<a href="https://glama.ai/mcp/servers/@adarshem/mcp-server-learn">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@adarshem/mcp-server-learn/badge" alt="Weather Server MCP server" />
+</a>
+
 ## Features
 - Built using Node.js.
 - Implements MCP tools for weather data retrieval.
@@ -62,4 +66,4 @@ Update your `settings.json` file of VSCode to add this MCP server
 
 ## Resources
 - [MCP Quickstart Guide](https://modelcontextprotocol.io/quickstart/server)
-- [US National Weather Service API](https://www.weather.gov/documentation/services-web-api)# mcp-server-learn
+- [US National Weather Service API](https://www.weather.gov/documentation/services-web-api)
